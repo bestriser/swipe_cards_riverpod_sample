@@ -10,12 +10,23 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+
+  # domain
+  freezed_annotation: ^2.1.0
+
+  # ui
   swipe_cards: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # validate
   flutter_lints: ^2.0.0
+
+  # generate
+  build_runner: ^2.2.0
+  freezed: ^2.1.0+1
 
 flutter:
   uses-material-design: true

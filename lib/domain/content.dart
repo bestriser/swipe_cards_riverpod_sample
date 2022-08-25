@@ -1,11 +1,13 @@
 import 'dart:ui';
 
-class Content {
-  Content({
-    required this.text,
-    required this.color,
-  });
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  final String text;
-  final Color color;
+part 'content.freezed.dart';
+
+@freezed
+class Content with _$Content {
+  const factory Content({
+    required String text,
+    required Color color,
+  }) = _Content;
 }
