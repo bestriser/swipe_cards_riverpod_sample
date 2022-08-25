@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.co.bestrise.swipecards.sample.swipe_cards_sample">
+    package="jp.co.bestrise.swipecardsriverpodsample">
    <application
-        android:label="swipe_cards_sample"
+        android:label="swipe_cards_riverpod_sample"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

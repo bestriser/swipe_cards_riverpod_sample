@@ -1,4 +1,4 @@
-# swipe_cards_sample
+# swipe_cards_riverpod_sample
 
 This is Flutter project for swipe cards sample.
 

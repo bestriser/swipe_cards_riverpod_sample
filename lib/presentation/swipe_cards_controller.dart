@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:swipe_cards/draggable_card.dart';
 import 'package:swipe_cards/swipe_cards.dart';
-import 'package:swipe_cards_sample/domain/content.dart';
+import 'package:swipe_cards_riverpod_sample/domain/content.dart';
 
 final swipeCardsProvider = StateNotifierProvider.family<SwipeCardsController,
     List<SwipeItem>, List<Content>>((ref, contents) {

@@ -3,8 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:swipe_cards/swipe_cards.dart';
-import 'package:swipe_cards_sample/domain/content.dart';
-import 'package:swipe_cards_sample/presentation/swipe_cards_controller.dart';
+import 'package:swipe_cards_riverpod_sample/domain/content.dart';
+import 'package:swipe_cards_riverpod_sample/presentation/swipe_cards_controller.dart';
 
 class SwipeCardsPage extends ConsumerWidget {
   const SwipeCardsPage({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class SwipeCardsPage extends ConsumerWidget {
     final ctr = ref.read(swipeCardsProvider(Content.defaultContents).notifier);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Swipe Cards Sample')),
+      appBar: AppBar(title: const Text('Swipe Cards Riverpod Sample')),
       body: Column(
         children: [
           SizedBox(

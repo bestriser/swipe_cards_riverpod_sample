@@ -1,4 +1,4 @@
-name: swipe_cards_sample
+name: swipe_cards_riverpod_sample
 description: This is Flutter project for swipe cards sample.
 publish_to: 'none'
 version: 1.0.0+1
